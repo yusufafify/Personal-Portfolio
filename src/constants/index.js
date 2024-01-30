@@ -56,10 +56,6 @@ const services = [
     icon: backend,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Desktop Developer",
     icon: web,
   },
@@ -70,10 +66,6 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "Python",
-    icon: python,
-  },
   {
     name: "Postgresql",
     icon: postgres,
@@ -117,10 +109,6 @@ const technologies = [
   {
     name: "Three JS",
     icon: threejs,
-  },
-  {
-    name: "C++",
-    icon: cpp,
   },
 ];
 
