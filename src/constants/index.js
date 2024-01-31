@@ -248,57 +248,57 @@ const projects = [
     source_code_link: "https://github.com/yusufafify/PixelAlchemy",
     live_preview_link: "https://pixel-alchemy.netlify.app/",
   },
-  {
-    name: "Signal Composer",
-    description:
-      "This desktop application enables users to compose custom signals, experiment with sampling and noise, and visualize the results to gain a deeper understanding of the Nyquist Sampling Theorem.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "QT designer",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: signal_composer,
-    source_code_link: "https://github.com/yusufafify/Signal-Composer",
-  },
-  {
-    name: "Snake & Ladder Monopoly",
-    description:
-      "A fun and interactive console-based game that combines the elements of the classic games of Snake and Ladder and Monopoly.",
-    tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CMUgraphics",
-        color: "green-text-gradient",
-      },
-    ],
-    image: snake_ladder,
-    source_code_link: "https://github.com/yusufafify/Snake_Ladder_Monopoly",
-  },
-  {
-    name: "Bus Trip simulation",
-    description:
-      "A program empowers the transit system to optimize passenger flow, considering diverse factors like arrival times, and desired destinations.",
-    tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Visual Studio",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bus_trip,
-    source_code_link: "https://github.com/yusufafify/Bus-Trip-Simulation",
-  },
+  // {
+  //   name: "Signal Composer",
+  //   description:
+  //     "This desktop application enables users to compose custom signals, experiment with sampling and noise, and visualize the results to gain a deeper understanding of the Nyquist Sampling Theorem.",
+  //   tags: [
+  //     {
+  //       name: "python",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "QT designer",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: signal_composer,
+  //   source_code_link: "https://github.com/yusufafify/Signal-Composer",
+  // },
+  // {
+  //   name: "Snake & Ladder Monopoly",
+  //   description:
+  //     "A fun and interactive console-based game that combines the elements of the classic games of Snake and Ladder and Monopoly.",
+  //   tags: [
+  //     {
+  //       name: "C++",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CMUgraphics",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: snake_ladder,
+  //   source_code_link: "https://github.com/yusufafify/Snake_Ladder_Monopoly",
+  // },
+  // {
+  //   name: "Bus Trip simulation",
+  //   description:
+  //     "A program empowers the transit system to optimize passenger flow, considering diverse factors like arrival times, and desired destinations.",
+  //   tags: [
+  //     {
+  //       name: "C++",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Visual Studio",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: bus_trip,
+  //   source_code_link: "https://github.com/yusufafify/Bus-Trip-Simulation",
+  // },
 ];
 
 export { services, technologies, testimonials, projects };
