@@ -76,15 +76,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Mt Work</p>
-        <h2 className={styles.sectionHeadText}>Project.</h2>
-        <p className={`${styles.heroSubText} mt-3 text-secondary`}>
-        Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
-        </p>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       
       <div className="mt-20 flex flex-wrap gap-7">
