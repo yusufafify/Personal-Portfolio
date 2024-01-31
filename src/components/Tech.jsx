@@ -18,10 +18,10 @@ const Tech = () => {
           with
         </p>
       </motion.div>
-      {technologies.map((technology) => (
-        <div className="w-28 h-28" key={technology.name}>
+      {technologies.map((technology,index) => (
+        <motion.div variants={fadeIn("right","spring",index*0.5, 0.75)} className="w-28 h-28" key={technology.name}>
           <BallCanvas icon={technology.icon} />
-        </div>
+        </motion.div>
       ))}
     </div>
   );
