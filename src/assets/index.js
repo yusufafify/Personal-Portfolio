@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
+import logo from "./personal/logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,20 +25,21 @@ import python from "./tech/python.png";
 import arduino from "./tech/arduino.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import car_showcase from "./projects/car_showcase.png";
+import prompt_verse from "./projects/prompt_verse.png";
+import pixelalchemy from "./projects/pixelalchemy.png";
 
-import car_showcase from "./car_showcase.png";
-import prompt_verse from "./prompt_verse.png";
-import pixelalchemy from "./pixelalchemy.png";
+import snake_ladder from "./projects/snake_ladder.png";
+import signal_composer from "./projects/signal_composer.png";
+import bus_trip from "./projects/bus_trip.png";
 
-import snake_ladder from "./snake_ladder.png";
-import signal_composer from "./signal_composer.png";
-import bus_trip from "./bus_trip.png";
+import preview from "./preview.png";
+import personal from "./personal/personal.png";
 
-import preview from "./preview.png"
+import github from "./social/github.png";
+import facebook from "./social/facebook.png";
+import instagram from "./social/instagram.png";
+import linkedin from "./social/linkedin.png";
 
 export {
   logo,
@@ -62,10 +63,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   cpp,
   postgres,
   python,
@@ -76,5 +73,9 @@ export {
   snake_ladder,
   signal_composer,
   bus_trip,
-  preview
+  preview,
+  personal,
+  facebook,
+  instagram,
+  linkedin,
 };

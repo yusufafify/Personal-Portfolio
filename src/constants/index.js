@@ -25,6 +25,10 @@ import {
   snake_ladder,
   bus_trip,
   postgres,
+  instagram,
+  facebook,
+  linkedin,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -123,48 +127,6 @@ const technologies = [
     icon: cpp,
   },
 ];
-
-// const experiences = [
-//   {
-//     title: "Full stack Developer",
-//     company_name: "Blue Line",
-//     icon: meta,
-//     iconBg: "#E6DEDD",
-//     date: "June 2023 - Present",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Pthon Desktop Applications",
-//     company_name: "CUFE",
-//     icon: starbucks,
-//     iconBg: "#383E56",
-//     date: "September 2023 - Jan 2024",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Bus Trip simulation in C++",
-//     company_name: "CUFE",
-//     icon: tesla,
-//     iconBg: "#E6DEDD",
-//     date: "Oct 2023 - Dec 2023",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-// ];
 
 const testimonials = [
   {
@@ -283,9 +245,9 @@ const projects = [
     source_code_link: "https://github.com/yusufafify/Snake_Ladder_Monopoly",
   },
   {
-    name: "Bus Trip simulation",
+    name: "Bus Trip Simulation",
     description:
-      "A program empowers the transit system to optimize passenger flow, considering diverse factors like arrival times, and desired destinations.",
+      "This program leverages the principles of Data Structures and Algorithms to empower the transit system, optimizing passenger flow by considering diverse factors such as arrival times and desired destinations.",
     tags: [
       {
         name: "C++",
@@ -301,4 +263,27 @@ const projects = [
   },
 ];
 
-export { services, technologies, testimonials, projects };
+const socialMedia=[
+  {
+    image:github,
+    link:'https://github.com/yusufafify',
+    alt:'github'
+  },
+  {
+    image:facebook,
+    link:'https://www.facebook.com/Youssefafify12.89/',
+    alt:'facebook'
+  },
+  {
+    image:instagram,
+    link:'https://www.instagram.com/_youssef.afify/?hl=en',
+    alt:'instagram'
+  },
+  {
+    image:linkedin,
+    link:'https://www.linkedin.com/in/youssef-afify-aa458b2b2/',
+    alt:'Linkedin'
+  },
+]
+
+export { services, technologies, testimonials, projects,socialMedia };
