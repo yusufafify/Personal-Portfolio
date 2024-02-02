@@ -7,7 +7,6 @@ Welcome to my personal portfolio! This repository showcases my skills, projects,
 ## Table of Contents
 
 - [About Me](#about-me)
-- [Projects](#projects)
 - [Skills](#skills)
 - [Contact](#contact)
 - [Screenshot](#screenshot)
@@ -19,7 +18,7 @@ I am Youssef Ahmed Afify, currently pursuing a degree in Biomedical Engineering,
 ## Skills
 
 - **Programming Languages:** Python, JavaScript, C++, TypeScript
-- **Web Development:** HTML, CSS, React, Express JS, Node.js, Next JS, Redux, Tailwind CSS, Bootstrap, Email JS, MongoDB, PostgreSQL
+- **Web Development:** HTML, CSS, React, Express JS, Node.js, Next JS, Redux, Tailwind CSS, Bootstrap, Email JS, MongoDB, PostgreSQL, Three JS
 - **Biomedical Engineering:** Completed a training at MECL (Medical Equipment Calibration Lab at Cairo university)
 
 ## Contact
@@ -32,4 +31,4 @@ Feel free to reach out if you have any questions, collaboration ideas, or just w
 
 ## Screenshot
 
-
+<img src="https://github.com/yusufafify/Personal-Portfolio/assets/115397064/35863603-d4dc-400e-9e11-03e95309413b" alt="screnshot" />
