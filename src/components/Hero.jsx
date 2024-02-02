@@ -8,7 +8,9 @@ import hi from "../assets/hi.svg";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto lg:top-28 mb-32`}>
+    <section
+      className={`relative top-0 mxl:top-20 w-full h-screen mx-auto mb-32 mxl:-mb-10`}
+    >
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
