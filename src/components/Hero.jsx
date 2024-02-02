@@ -8,7 +8,9 @@ import hi from "../assets/hi.svg";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto mb-32`}>
+    <section
+      className={`relative top-0 mxl:top-20 w-full h-screen mx-auto mb-32 mxl:-mb-10`}
+    >
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -17,8 +19,8 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
-          <div>
+        <div className="flex flex-wrap">
+          <div className="mxl:w-1/2 w-full">
             <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I'm <span className="text-[#915EFF]">Youssef</span>
             </h1>
@@ -56,12 +58,22 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <Tilt className="w-full flex justify-center items-center h-full sm:h-[530px]">
-            <img
+          <Tilt className="mxl:w-1/2 mt-6 w-full flex justify-center items-center h-full sm:h-[530px]">
+            <motion.img
               src={personal}
               alt="personal photo"
               className="sm:w-[500px] sm:h-[500px] w-full h-full object-contain rounded-full"
-              style={{ boxShadow: "5px 2px 5px 2px #b968ff" }}
+              style={{
+                boxShadow: "5px 0 5px 0 #b968ff",
+              }}
+              whileHover={{
+                boxShadow: "10px 0 10px 0 #b968ff",
+                transition: { duration: 0.5 },
+              }}
+              whileTap={{
+                boxShadow: "5px 0 5px 0 #b968ff",
+                transition: { duration: 0.5 },
+              }}
             />
           </Tilt>
         </div>
