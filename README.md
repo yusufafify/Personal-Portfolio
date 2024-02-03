@@ -7,53 +7,28 @@ Welcome to my personal portfolio! This repository showcases my skills, projects,
 ## Table of Contents
 
 - [About Me](#about-me)
-- [Projects](#projects)
 - [Skills](#skills)
 - [Contact](#contact)
-- [License](#license)
+- [Screenshot](#screenshot)
 
 ## About Me
 
 I am Youssef Ahmed Afify, currently pursuing a degree in Biomedical Engineering, where I combine my love for technology with a deep interest in healthcare. As a junior fullstack developer, I bring a unique perspective to the intersection of biology and technology.
 
-## Projects
-
-Here are some highlighted projects from my portfolio:
-
-1. **[Health Monitoring System](link-to-project-1)** - Developed a web-based health monitoring system that integrates with wearable devices to track and analyze health data.
-
-   ![Project 1 Screenshot](link-to-screenshot-1)
-
-2. **[Biomedical Data Analysis Tool](link-to-project-2)** - Created a tool for analyzing and visualizing biomedical data, aiding researchers in drawing meaningful insights.
-
-   ![Project 2 Screenshot](link-to-screenshot-2)
-
-3. **[Portfolio Website](link-to-project-3)** - Built my personal portfolio website to showcase my skills and projects.
-
-   ![Project 3 Screenshot](link-to-screenshot-3)
-
-For a complete list of projects, check the [Projects](projects/) directory.
-
 ## Skills
 
-- **Programming Languages:** Python, JavaScript, Java
-- **Web Development:** HTML, CSS, React, Node.js
-- **Biomedical Engineering:** [List any specific skills or expertise related to biomedical engineering.]
+- **Programming Languages:** Python, JavaScript, C++, TypeScript
+- **Web Development:** HTML, CSS, React, Express JS, Node.js, Next JS, Redux, Tailwind CSS, Bootstrap, Email JS, MongoDB, PostgreSQL, Three JS
+- **Biomedical Engineering:** Completed a training at MECL (Medical Equipment Calibration Lab at Cairo university)
 
 ## Contact
 
-- **Email:** [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourusername/)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+- **Email:** [yusufafify0@gmail.com](mailto:yusufafify0@gmail.com)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/youssef-afify-aa458b2b2/)
+- **GitHub:** [GitHub Profile](https://github.com/yusufafify)
 
 Feel free to reach out if you have any questions, collaboration ideas, or just want to connect!
 
-## License
+## Screenshot
 
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
-
-Feel free to reach out if you have any questions, collaboration ideas, or just want to connect!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+<img src="https://github.com/yusufafify/Personal-Portfolio/assets/115397064/35863603-d4dc-400e-9e11-03e95309413b" alt="screnshot" />
