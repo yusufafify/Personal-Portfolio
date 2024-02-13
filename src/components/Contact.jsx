@@ -67,7 +67,12 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <p className="text-secondary">
-          Phone number: <span className="text-white">01006611094</span>
+          Phone number:               <a
+                href="https://wa.me/1006611094?text=I'm%20interested%20in%20your%20service"
+                className="dark:text-gray-400 underline text-black font-medium"
+              >
+                01006611094
+              </a>
         </p>
         <form
           ref={formRef}
@@ -81,7 +86,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
@@ -93,7 +98,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
