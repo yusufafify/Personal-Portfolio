@@ -164,7 +164,7 @@ const projects = [
     ],
     image: car_showcase,
     source_code_link: "https://github.com/yusufafify/Car-Hub",
-    live_preview_link: "https://car-hub-taupe-mu.vercel.app/",
+    live_preview_link: "https://car-hub-pearl-one.vercel.app/",
   },
   {
     name: "PromptVerse.Ai",
