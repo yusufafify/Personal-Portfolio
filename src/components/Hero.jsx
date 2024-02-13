@@ -9,10 +9,10 @@ import hi from "../assets/hi.svg";
 const Hero = () => {
   return (
     <section
-      className={`relative top-0 mxl:top-20 w-full h-screen mx-auto mb-32 mxl:-mb-10`}
+      className={`relative top-32 w-full mx-auto mb-32`}
     >
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={` inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
