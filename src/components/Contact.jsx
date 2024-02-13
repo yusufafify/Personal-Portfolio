@@ -68,7 +68,7 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <p className="text-secondary">
           Phone number:               <a
-                href="https://wa.me/1006611094?text=I'm%20interested%20in%20your%20service"
+                href="https://wa.me/201006611094?text=I'm%20interested%20in%20your%20service"
                 className="dark:text-gray-400 underline text-black font-medium"
               >
                 01006611094
