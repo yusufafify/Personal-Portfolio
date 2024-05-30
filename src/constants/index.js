@@ -56,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   // {
