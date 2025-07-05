@@ -32,6 +32,8 @@ import pixelalchemy from "./projects/pixelalchemy.png";
 import snake_ladder from "./projects/snake_ladder.png";
 import signal_composer from "./projects/signal_composer.png";
 import bus_trip from "./projects/bus_trip.png";
+import ieLearn from './projects/ielearn.png'
+import linkUp from './projects/linkUp.png'
 
 import preview from "./preview.png";
 import personal from "./personal/personal.png";
@@ -78,4 +80,6 @@ export {
   facebook,
   instagram,
   linkedin,
+  ieLearn,
+  linkUp
 };

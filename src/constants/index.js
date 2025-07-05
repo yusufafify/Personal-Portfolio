@@ -28,7 +28,9 @@ import {
   instagram,
   facebook,
   linkedin,
-  github
+  github,
+  ieLearn,
+  linkUp
 } from "../assets";
 
 export const navLinks = [
@@ -145,6 +147,52 @@ const testimonials = [
 
 const projects = [
   {
+    name: "IE-Learn",
+    description:
+      "An integrated learning platform for IGCSE system.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket-io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ieLearn,
+    source_code_link: "https://github.com/yusufafify/IE-Learn",
+  },
+  {
+    name: "LinkUp",
+    description:
+      "A FullStack LinkedIn clone",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Socket-io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: linkUp,
+    source_code_link: "https://github.com/yusufafify/LinkUp_Front_End",
+  },
+  {
     name: "Car Hub",
     description:
       "A website that provides comprehensive information about various types of cars, including details such as manufacturer, release date, MPG (Miles Per Gallon), and class.",
@@ -260,27 +308,27 @@ const projects = [
   },
 ];
 
-const socialMedia=[
+const socialMedia = [
   {
-    image:github,
-    link:'https://github.com/yusufafify',
-    alt:'github'
+    image: github,
+    link: 'https://github.com/yusufafify',
+    alt: 'github'
   },
   {
-    image:facebook,
-    link:'https://www.facebook.com/Youssefafify12.89/',
-    alt:'facebook'
+    image: facebook,
+    link: 'https://www.facebook.com/Youssefafify12.89/',
+    alt: 'facebook'
   },
   {
-    image:instagram,
-    link:'https://www.instagram.com/_youssef.afify/?hl=en',
-    alt:'instagram'
+    image: instagram,
+    link: 'https://www.instagram.com/_youssef.afify/?hl=en',
+    alt: 'instagram'
   },
   {
-    image:linkedin,
-    link:'https://www.linkedin.com/in/youssef-afify-aa458b2b2/',
-    alt:'Linkedin'
+    image: linkedin,
+    link: 'https://www.linkedin.com/in/youssef-afify-aa458b2b2/',
+    alt: 'Linkedin'
   },
 ]
 
-export { services, technologies, testimonials, projects,socialMedia };
+export { services, technologies, testimonials, projects, socialMedia };
