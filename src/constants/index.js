@@ -164,7 +164,6 @@ const projects = [
     ],
     image: car_showcase,
     source_code_link: "https://github.com/yusufafify/Car-Hub",
-    live_preview_link: "https://car-hub-pearl-one.vercel.app/",
   },
   {
     name: "PromptVerse.Ai",
@@ -186,7 +185,6 @@ const projects = [
     ],
     image: prompt_verse,
     source_code_link: "https://github.com/yusufafify/promptVerse.Ai",
-    live_preview_link: "https://prompt-verse-ai.onrender.com/",
   },
   {
     name: "PixelAlchemy",
@@ -208,7 +206,6 @@ const projects = [
     ],
     image: pixelalchemy,
     source_code_link: "https://github.com/yusufafify/PixelAlchemy",
-    live_preview_link: "https://pixel-alchemy.netlify.app/",
   },
   {
     name: "Signal Composer",
