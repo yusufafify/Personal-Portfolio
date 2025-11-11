@@ -24,16 +24,21 @@ import postgres from "./tech/postgres.png";
 import python from "./tech/python.png";
 import arduino from "./tech/arduino.png";
 import threejs from "./tech/threejs.svg";
+import pytorch from './tech/PyTorch.svg';
+import scikit_learn from './tech/scikit-learn.svg'
+import tensorflow from './tech/TensorFlow.svg'
 
 import car_showcase from "./projects/car_showcase.png";
 import prompt_verse from "./projects/prompt_verse.png";
 import pixelalchemy from "./projects/pixelalchemy.png";
-
+import retino from "./projects/retino.png";
+import organ from "./projects/organ_transplant.png";
+import conway from "./projects/conway.png";
 import snake_ladder from "./projects/snake_ladder.png";
 import signal_composer from "./projects/signal_composer.png";
 import bus_trip from "./projects/bus_trip.png";
-import ieLearn from './projects/ielearn.png'
-import linkUp from './projects/linkUp.png'
+import ieLearn from "./projects/ielearn.png";
+import linkUp from "./projects/linkUp.png";
 
 import preview from "./preview.png";
 import personal from "./personal/personal.png";
@@ -42,6 +47,11 @@ import github from "./social/github.png";
 import facebook from "./social/facebook.png";
 import instagram from "./social/instagram.png";
 import linkedin from "./social/linkedin.png";
+
+import azha from "./company/azha_logo.svg";
+import blueline from "./company/blueline_logo.svg";
+import envnt from "./company/envnt.svg";
+import ielearn_logo from "./company/ielearn_logo.png";
 
 export {
   logo,
@@ -81,5 +91,15 @@ export {
   instagram,
   linkedin,
   ieLearn,
-  linkUp
+  linkUp,
+  retino,
+  organ,
+  conway,
+  azha,
+  blueline,
+  envnt,
+  ielearn_logo,
+  pytorch,
+  scikit_learn,
+  tensorflow
 };

@@ -41,11 +41,12 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Biomedical engineering student at Cairo University, combining a passion
-        for healthcare with full-stack web development expertise, adept in
-        frameworks like React, Express.js, Flask, and Node.js, and experienced
-        in using Python for scientific desktop applications.
-        Let's work together to bring your ideas to life!
+        Biomedical engineering student at Cairo University, combining expertise in 
+        machine learning and deep learning (PyTorch, TensorFlow, scikit-learn) with 
+        full-stack web development. Experienced in building end-to-end ML pipelines, 
+        modern web applications using React, Node.js, and Flask, and skilled in data 
+        engineering with PostgreSQL and MongoDB.
+        Let&apos;s work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-11">
       {services.map((service,index)=>(

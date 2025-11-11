@@ -17,12 +17,9 @@ import {
   threejs,
   cpp,
   python,
-  arduino,
-  car_showcase,
-  prompt_verse,
+  conway,
   pixelalchemy,
   signal_composer,
-  snake_ladder,
   bus_trip,
   postgres,
   instagram,
@@ -30,7 +27,16 @@ import {
   linkedin,
   github,
   ieLearn,
-  linkUp
+  linkUp,
+  retino,
+  organ,
+  azha,
+  blueline,
+  envnt,
+  ielearn_logo,
+  pytorch,
+  scikit_learn,
+  tensorflow,
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +47,10 @@ export const navLinks = [
   {
     id: "tech",
     title: "Technologies",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "work",
@@ -54,24 +64,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
   {
-    title: "Desktop Developer",
+    title: "Machine Learning Engineer",
+    icon: creator,
+  },
+  {
+    title: "UI/UX Designer",
     icon: web,
   },
   {
-    title: "Student at CUFE",
-    icon: creator,
+    title: "Technical Team Lead",
+    icon: mobile,
   },
 ];
 
@@ -81,8 +87,28 @@ const technologies = [
     icon: python,
   },
   {
-    name: "Postgresql",
+    name: "PyTorch",
+    icon: pytorch, // You can add a custom PyTorch icon later
+  },
+  {
+    name: "TensorFlow",
+    icon: tensorflow, // You can add a custom TensorFlow icon later
+  },
+  {
+    name: "scikit-learn",
+    icon: scikit_learn, // You can add a custom scikit-learn icon later
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "PostgreSQL",
     icon: postgres,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
   },
   {
     name: "HTML 5",
@@ -117,16 +143,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "C++",
-    icon: cpp,
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Git",
+    icon: git,
   },
 ];
 
@@ -148,8 +174,7 @@ const testimonials = [
 const projects = [
   {
     name: "IE-Learn",
-    description:
-      "An integrated learning platform for IGCSE system.",
+    description: "An integrated learning platform for IGCSE system.",
     tags: [
       {
         name: "react",
@@ -169,8 +194,7 @@ const projects = [
   },
   {
     name: "LinkUp",
-    description:
-      "A FullStack LinkedIn clone",
+    description: "A full-stack LinkedIn clone.",
     tags: [
       {
         name: "react",
@@ -191,48 +215,6 @@ const projects = [
     ],
     image: linkUp,
     source_code_link: "https://github.com/yusufafify/LinkUp_Front_End",
-  },
-  {
-    name: "Car Hub",
-    description:
-      "A website that provides comprehensive information about various types of cars, including details such as manufacturer, release date, MPG (Miles Per Gallon), and class.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapid api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: car_showcase,
-    source_code_link: "https://github.com/yusufafify/Car-Hub",
-  },
-  {
-    name: "PromptVerse.Ai",
-    description:
-      "Web application that is designed to unleash the full potential of GPT by allowing users to create, share, and explore AI prompts.",
-    tags: [
-      {
-        name: "NEXT JS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: prompt_verse,
-    source_code_link: "https://github.com/yusufafify/promptVerse.Ai",
   },
   {
     name: "PixelAlchemy",
@@ -256,6 +238,71 @@ const projects = [
     source_code_link: "https://github.com/yusufafify/PixelAlchemy",
   },
   {
+    name: "Conway's Game of Life",
+    description:
+      "An interactive simulation of Conway's Game of Life - a cellular automaton that demonstrates emergent complexity from simple rules. Built with React and TypeScript for a responsive, real-time experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "algorithm",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: conway,
+    source_code_link: "https://github.com/yusufafify/conways-game-of-life",
+  },
+  {
+    name: "Diabetic Retinopathy Detection System",
+    description:
+      "A deep learning-powered clinical decision support system that detects diabetic retinopathy from retinal images. Built with Python, Flask, and PyTorch for accurate medical image analysis.",
+    tags: [
+      {
+        name: "deep learning",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pytorch",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: retino,
+    source_code_link:
+      "https://github.com/yusufafify/Diabetic-Retinopathy-Detection-System",
+  },
+  {
+    name: "Organ Transplant Matching System",
+    description:
+      "An intelligent matching system that optimizes organ transplant allocation using advanced algorithms and data structures. Features time complexity optimization for efficient patient-donor matching.",
+    tags: [
+      {
+        name: "algorithm",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "data structures",
+        color: "green-text-gradient",
+      },
+      {
+        name: "optimization",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: organ,
+    source_code_link:
+      "https://github.com/yusufafify/Organ-Transplant-matching-system",
+  },
+  {
     name: "Signal Composer",
     description:
       "This desktop application enables users to compose custom signals, experiment with sampling and noise, and visualize the results to gain a deeper understanding of the Nyquist Sampling Theorem.",
@@ -271,23 +318,6 @@ const projects = [
     ],
     image: signal_composer,
     source_code_link: "https://github.com/yusufafify/Signal-Composer",
-  },
-  {
-    name: "Snake & Ladder Monopoly",
-    description:
-      "A fun and interactive console-based game that combines the elements of the classic games of Snake and Ladder and Monopoly.",
-    tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CMUgraphics",
-        color: "green-text-gradient",
-      },
-    ],
-    image: snake_ladder,
-    source_code_link: "https://github.com/yusufafify/Snake_Ladder_Monopoly",
   },
   {
     name: "Bus Trip Simulation",
@@ -308,27 +338,102 @@ const projects = [
   },
 ];
 
+const experiences = [
+  {
+    title: "Freelance Front-End Engineer & UI Designer",
+    company_name: "Blueline trd.",
+    icon: blueline, // Placeholder - you can replace with actual logo
+    iconBg: "#383E56",
+    date: "June 2024 - September 2024",
+    points: [
+      "Delivered custom front-end solutions for Blueline trd. as a freelance developer.",
+      "Created modern and responsive UI designs tailored to client requirements.",
+      "Ensured cross-browser compatibility and optimal performance.",
+      "Maintained clear communication with stakeholders throughout the project lifecycle.",
+    ],
+  },
+  {
+    title: "Freelance Front-End Engineer",
+    company_name: "Azha Designs",
+    icon: azha, // Placeholder - you can replace with actual logo
+    iconBg: "#383E56",
+    date: "September 2024 - October 2024",
+    points: [
+      "Architected and developed a full-featured e-commerce platform using Next.js 15, React 18, and TypeScript, implementing SSR and ISR for optimal SEO and performance.",
+      "Built a comprehensive admin dashboard with real-time order management, customer analytics, inventory tracking, and data visualization using Recharts and Radix UI components.",
+      "Developed RESTful API integration layer with custom hooks (useCustomQuery) for data fetching, caching, and error handling across product, order, and customer endpoints.",
+      "Implemented secure authentication flows and protected routes with Next.js middleware, including JWT token management and role-based access control.",
+    ],
+  },
+  {
+    title: "Front-End Engineer Intern",
+    company_name: "IE-Learn",
+    icon: ielearn_logo, // Placeholder - you can replace with actual logo
+    iconBg: "#E6DEDD",
+    date: "July 2024 - January 2025",
+    points: [
+      "Engineered and deployed an IGCSE learning platform using React and Tailwind CSS, increasing student adoption by 40%.",
+      "Implemented dynamic scheduling and content modules, reducing manual workload for admins by 50%.",
+      "Integrated Socket.IO-powered chat and a Dialogflow AI chatbot to streamline student support interactions.",
+      "Architected a scalable class hierarchy system using TypeScript and Context API for efficient navigation and content mapping.",
+    ],
+  },
+  {
+    title: "Front-End Team Lead",
+    company_name: "LinkUp Project - Software Course",
+    icon: web, // Placeholder - you can replace with actual logo
+    iconBg: "#383E56",
+    date: "April 2025",
+    points: [
+      "Led a 6-member Front-End sub-team in developing a React/TypeScript full-stack social networking platform (LinkedIn clone) as part of university software course.",
+      "Developed the User Management Module (frontend), contributing ~45% of the 19-member team project.",
+      "Integrated frontend with backend APIs in a stateful distributed architecture, ensuring instant synchronization.",
+      "Enabled features such as user authentication, adding experiences and skills, and updating user information with a responsive design.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "ENVNT",
+    icon: envnt, // Placeholder - you can replace with actual logo
+    iconBg: "#383E56",
+    date: "July 2025 - August 2025",
+    points: [
+      "Developed and deployed low-code web applications using OutSystems, delivering features from ideation to prototyping, debugging, and final delivery.",
+      "Applied microservices architecture with a choreography-based approach to build scalable, modular applications composed of independent, seamlessly integrated services.",
+      "Strengthened application architecture design, UX optimization, and data flow planning skills by focusing on high-level system thinking beyond code implementation.",
+      "Collaborated in a fast-paced environment, enhancing both technical problem-solving and cross-functional teamwork abilities.",
+    ],
+  },
+];
+
 const socialMedia = [
   {
     image: github,
-    link: 'https://github.com/yusufafify',
-    alt: 'github'
+    link: "https://github.com/yusufafify",
+    alt: "github",
   },
   {
     image: facebook,
-    link: 'https://www.facebook.com/Youssefafify12.89/',
-    alt: 'facebook'
+    link: "https://www.facebook.com/Youssefafify12.89/",
+    alt: "facebook",
   },
   {
     image: instagram,
-    link: 'https://www.instagram.com/_youssef.afify/?hl=en',
-    alt: 'instagram'
+    link: "https://www.instagram.com/_youssef.afify/?hl=en",
+    alt: "instagram",
   },
   {
     image: linkedin,
-    link: 'https://www.linkedin.com/in/youssef-afify-aa458b2b2/',
-    alt: 'Linkedin'
+    link: "https://www.linkedin.com/in/youssef-afify-aa458b2b2/",
+    alt: "Linkedin",
   },
-]
+];
 
-export { services, technologies, testimonials, projects, socialMedia };
+export {
+  services,
+  technologies,
+  testimonials,
+  projects,
+  socialMedia,
+  experiences,
+};
